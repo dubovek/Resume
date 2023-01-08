@@ -1,0 +1,223 @@
+/* https://fonts.google.com */
+@import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', fantasy, sans-serif;
+    font-size: 19px;
+    font-weight: 600;
+    background-color: #fff0e4;
+    color: #0f141e;
+    margin-top: 50px;
+}
+
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #fff0e4;
+    width: 100%;
+    text-align: center;
+    margin-top: -50px;
+    position: fixed;
+    padding: 10px 0;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+
+section>h2,
+p {
+    margin: 0.5rem;
+    text-align: right;
+}
+
+.avatar {
+    width: 10rem;
+    border: 0.3rem;
+    border-radius: 10%;
+    background-color: rgb(244, 231, 231);
+    padding: 0.3rem;
+    box-shadow: -3px 3px 15px rgba(299, 199, 99, 0.5);
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+article {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    padding: 15px;
+}
+
+.card {
+    border: burlywood solid;
+    border-radius: 0 9px;
+}
+
+.card>h2,
+h4 {
+    margin-right: 22px;
+}
+
+table,
+th,
+td {
+    border: 1px solid #833c01;
+    text-align: center;
+    padding: 3px;
+}
+
+.experience {
+    background-color: #fbe7d0;
+}
+
+.study {
+    background-color: #fbe7d3;
+}
+
+.hobbies {
+    background-color: #fbe7d6;
+}
+
+.contact {
+    background-color: #fbe7d9;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 12px;
+    padding: 3px;
+}
+
+.message {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 12px;
+}
+
+input {
+    width: 222px;
+    height: 22px;
+    background-color: rgb(249, 249, 249);
+    border: none;
+}
+
+#submit {
+    width: 111px;
+    cursor: pointer;
+}
+
+#submit:hover {
+    color: #9a5201;
+}
+
+#submit:active {
+    opacity: 0.5;
+}
+
+#message {
+    width: 333px;
+    margin-top: -9px;
+    background-color: rgb(244, 244, 244);
+}
+
+.social {
+    background-color: #fbe7d0;
+}
+
+.sociallink {
+    color: #fff0e4;
+    text-decoration: none;
+    background-color: dimgray;
+    border: darkgray solid;
+    border-radius: 6px;
+    margin: 3px;
+    padding: 9px;
+}
+
+.social h4:first-child {
+    font-family: fantasy;
+}
+
+.social a:nth-child(2) {
+    border-radius: 50% 0;
+}
+
+.social a:last-child {
+    border-radius: 0 50%;
+}
+
+.sociallink:hover {
+    background-color: darkgrey;
+    border-color: dimgray;
+}
+
+.sociallink:visited {
+    background-color: darkgrey;
+    border-color: dimgray;
+}
+
+.sociallink:active {
+    color: dimgray;
+}
+
+strong,
+em {
+    font-size: 1.25rem;
+}
+
+.mailme {
+    text-decoration: none;
+    font-family: 'East Sea Dokdo';
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    color: darkgreen;
+}
+
+hr {
+    width: 33%;
+    margin: auto;
+    margin-bottom: 9px;
+}
+
+footer {
+    text-align: center;
+    font-family: 'East Sea Dokdo';
+    font-size: 2rem;
+}
+
+@media (max-width: 600px) {
+    .avatar {
+        margin-top: 2rem;
+    }
+
+    article {
+        flex-direction: column;
+
+    }
+}
+
+@media (max-width: 600px) {
+    .contact {
+        flex-direction: column;
+    }
+}

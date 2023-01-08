@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="keywords" content="Aleksandr Dubovik Resume CV  HTML CSS JS Frontend" />
+  <meta name="description" content="Resume, this site is Aleksandr Dubovik resume" />
+  <title>Aleksandr Dubovik Resume</title>
+  <link rel="stylesheet" href="main.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+  </style>
+  <!-- https://www.funkyimagetools.com/cartoon -->
+</head>
+
+<body>
+
+  <h1>Aleksandr Dubovik Resume.</h1>
+
+  <header>
+    <figure>
+      <img class="avatar" src="Aleksandr Dubovik.jpg" alt="Aleksandr Dubovik's foto" />
+    </figure>
+    <section>
+      <h2>Shortly About Me:</h2>
+      <p>Hi there. I am Al. I study HTML, CSS, JS.</p>
+      <p>I am looking for a job in IT.</p>
+      <a class="mailme" href="mailto:aleksandr.dubovek@gmail.com">Mail Me...</a>
+    </section>
+  </header>
+
+  <main class="container">
+    <article class="card experience">
+      <h2>My Work experience:</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Place of work</th>
+            <th>Position</th>
+            <th>Year</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>"Kuro aparatūra" gamykla</td>
+            <td>Inžinierius konstruktorius I, II, kategorijos</td>
+            <td>1987-1991</td>
+          </tr>
+          <tr>
+            <td>"Dyzelservisas" TUB</td>
+            <td>Automechanikas, meistras, vadybininkas, administratorius</td>
+            <td>1996-2008</td>
+          </tr>
+          <tr>
+            <td>Verslo liudijimas</td>
+            <td>Dyzelinių automobilių servisas</td>
+            <td>2008-2020</td>
+          </tr>
+        </tbody>
+      </table>
+    </article>
+
+    <article class="card study">
+      <h2>My study:</h2>
+    </article>
+
+    <article class="card hobbies">
+      <h2>My hobbies:</h2>
+
+      <ul>
+        <li>Hiking</li>
+        <li>Bicycle</li>
+        <li>
+          Traveling
+          <ol type="a">
+            <li>Around the <em>city.</em></li>
+            <li>Around the <em>country.</em></li>
+            <li>Around the <em>world.</em></li>
+          </ol>
+        </li>
+      </ul>
+      <p>
+        <strong>About</strong> my hobbies shortly:
+      </p>
+      <p>
+        Hiking, cycling are my <strong>hobbies</strong>.
+      </p>
+      <p>
+        Traveling is my <strong>passion</strong>.
+      </p>
+    </article>
+
+    <article class="card contact">
+      <h2>Contact Me:</h2>
+      <form action="#">
+        <div>
+          <label for="name">You name:</label>
+          <input type="text" id="name" placeholder="Input You name" maxlength="66" pattern="[A-Za-z. ]{1,}" required
+            disabled></input>
+          <br>
+          <label for="email">You email:</label>
+          <input type="email" id="email" placeholder="Input You email" maxlength="33"
+            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required disabled></input>
+        </div>
+        <div>
+          <label class="message" for="message">You message to me:</label>
+          <br>
+          <textarea name="message" id="message" placeholder="Input You message here..." maxlength="99" required
+            disabled></textarea>
+        </div>
+        <div>
+          <label for="submit">Submit:</label>
+          <input type="submit" id="submit" value="Tap and Push"></input>
+        </div>
+      </form>
+    </article>
+
+    <article class="card social">
+      <h4>My social life:</h4>
+      <a class="sociallink" href="https://web.telegram.org/k/" target="_blank">Telegram</a>
+      |
+      <a class="sociallink" href="#" target="_blank">Facebook</a>
+      |
+      <a class="sociallink" href="#" target="_blank">Instagram</a>
+    </article>
+  </main>
+  <a class="mailme" href="mailto:aleksandr.dubovek@gmail.com">Mail Me...</a>
+  <hr>
+  <footer>&#169; Aleksandr Dubovik </footer>
+</body>
+
+</html>
