@@ -50,7 +50,7 @@ p {
     border-radius: 10%;
     background-color: rgb(244, 231, 231);
     padding: 0.3rem;
-    box-shadow: -3px 3px 15px rgba(299, 199, 99, 0.5);
+    box-shadow: -3px 3px 15px rgba(199, 199, 199, 0.6);
 }
 
 .container {
